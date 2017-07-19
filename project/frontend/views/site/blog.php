@@ -3,7 +3,6 @@ use yii\helpers\Html;
 use common\models\Category;
 
 $this->title = $blog->blog_title;
-
 ?>
 
 <h1>
