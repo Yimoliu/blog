@@ -23,6 +23,12 @@ class SiteController extends Controller
         $query = Blog::find()->where([
             'status' => Blog::STATUS_ENABLED
         ]);
+        //获取为数组方法
+        // $data = Blog::find()
+        //             ->where(['status' => Blog::STATUS_ENABLED])
+        //             ->orderBy('id')
+        //             ->asArray()
+        //             ->all();
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -37,7 +43,7 @@ class SiteController extends Controller
         ]);
 
         return $this->render('index', [
-            'dataProvider' => $dataProvider
+            'dataProvider' => $dataProvider,
         ]);
     }
 

@@ -8,6 +8,6 @@
                 }
             ?>
         </p>
-        <p class="pull-right">Powered By <a href="https://blog.oonne.com" target="_blank">RingBlog</a>.</p>
+        <p class="pull-right">Powered By <a href="http://www.blog.com" target="_blank">RingBlog</a>.</p>
     </div>
 </footer>
